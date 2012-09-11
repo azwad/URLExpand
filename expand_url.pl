@@ -13,6 +13,7 @@ my @short_urls  = (
 	'http://j.mp/PueHUZ',
 	'http://j.mp/Pu2xe',
 	'http://goo.gl/fb/OKlhG',
+	'http://rss.rssad.jp/rss/artclk/9FLW5bfpNz.D/9f89bf9033eb3da958f467d267c189fa?ul=ViMi4I5OWm9.59KCLdyVO3AmVYYmoiE6YWikVwKxeKhXxbMxuhgTyVLTNwwHFimO1MuRuUv',
 );
 
 foreach my $short_url (@short_urls){

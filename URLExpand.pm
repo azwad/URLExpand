@@ -35,6 +35,9 @@ sub expand {
 	if ($expand_url =~ /^http:\/\/feeds\.feedburner\.com/){
 		$expand_url = _expand_else($expand_url);
 		return $expand_url;
+	}elsif ($expand_url =~ /^http:\/\/rss\.rssad\.jp/){
+		$expand_url = _expand_else($expand_url);
+		return $expand_url;
 	}else{
 		return $expand_url;
 	}
