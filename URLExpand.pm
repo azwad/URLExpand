@@ -123,7 +123,11 @@ sub _expand_else {
 	my $res = $ua->head($query_url);
 	my $expand_url = $res->request->uri;
 	if (defined $expand_url ){
-		return $expand_url;
+		if ($expand_url eq 'http://www2.2ch.net/403/'){
+			return $short_url;
+		}else{
+			return $expand_url;
+		}
 	}else{
 		return $short_url;
 	}
